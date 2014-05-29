@@ -14,8 +14,7 @@ public class Test {
 		System.out.println("aa");
 		ComputeServiceContext context = ContextBuilder
 				.newBuilder("aws-ec2")
-				.credentials("AKIAJ3STKUYPPIVNYFSA",
-						"d0eC/E8G+DJkaAshxp7aodwqYA0AVC7MAYLoMT5m")
+				.credentials("")
 				.buildView(ComputeServiceContext.class);
 		ComputeService compute = context.getComputeService();
 		// Set<? extends ComputeMetadata> images = compute.listNodes();
